@@ -1,3 +1,5 @@
-print("Hello, World!, 8")
-print(8)
-print(3.14)
+from mypackage import calculation
+from mypackage import student
+result = calculation.add(10,20)
+print(result)
+a = student.greet("Karan")
